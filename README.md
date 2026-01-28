@@ -20,13 +20,33 @@
 
 Скачайте код с GitHub. Затем установите зависимости
 
-```sh
+```shell
 pip install -r requirements.txt
 ```
+Создайте миграции 
 
-Запустите разработческий сервер
+```shell
+pip manage.py makemigrations
+```
 
-```sh
+Затем базу данных
+
+```shell
+python manage.py migrate
+```
+
+Создайте суперпользователя
+
+```shell
+python manage.py createsuperuser
+```
+Перейдите по ссылке [Django administration](http://127.0.0.1:8000/admin/)
+
+Добавьте ваших покемонов. В папке медия лежат изображения покемонов, или же вы можете найти изображения в интернете
+
+Теперь можете запустить сервер
+
+```shell
 python3 manage.py runserver
 ```
 
