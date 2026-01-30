@@ -40,15 +40,16 @@ python manage.py migrate
 ```shell
 python manage.py createsuperuser
 ```
-Перейдите по ссылке [Django administration](http://127.0.0.1:8000/admin/)
-
-Добавьте ваших покемонов. В папке лежат `media` изображения покемонов, или же вы можете найти изображения в интернете
 
 Теперь можете запустить сервер
 
 ```shell
 python3 manage.py runserver
 ```
+
+Перейдите по ссылке [Django administration](http://127.0.0.1:8000/admin/)
+
+Добавьте ваших покемонов.
 
 ### Переменные окружения
 
